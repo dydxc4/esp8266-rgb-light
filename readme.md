@@ -12,6 +12,12 @@ Para este proyecto se utilizaron las siguientes librerias:
 * ESP Async WebServer v1.2.3
 * Bootstrap v5.1
 
+## Hardware requerido
+* Módulo ESP-01 ESP8266 con al menos 1MB de memoria flash
+* Módulo WS2812 o WS2812B el cual estara conectado a GPIO0 del ESP-01
+* Conversor Serial a USB
+* Protoboard, resistencias, botones, cables jumper, etc.
+
 ## Instrucciones
 Para ser utilizado en PlatformIO con cualquier módulo que lleve el chip ESP8266.
 
