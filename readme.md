@@ -23,6 +23,8 @@ Para ser utilizado en PlatformIO con cualquier módulo que lleve el chip ESP8266
 
 Los archivos requeridos por el servidor web se encuentran en la carpeta **x-data**. Estos archivos deberán ser comprimidos cada uno en formato GZIP a fin de reducir su tamaño y agilizar su envio a través de la red. Si su SO es Windows y tiene instalado 7-Zip puede emplear el script `compress.bat` para generar la carpeta **data** y comprimir los archivos de forma rápida.
 
+Una vez que tenga la carpeta data simplemente seleccione la opción **Upload Filesystem Image** para cargar la imagen del sistema de archivos al ESP8266.
+
 ## Funcionamiento
 El funcionamiento es simple: al iniciar el dispositivo ESP8266 por primera vez se activa WiFi en modo AP a la espera de que un usuario se conecte desde un dispositivo (de preferencia móvil) a una red generada de manera predeterminada, en este caso el SSID es **esp8266-light** y la contraseña es **esp32-rocks!**.
 
@@ -36,9 +38,9 @@ A partir de ese momento el dispositivo ESP8266 intentará conectarse a la red co
 De momento solo permite establecer un color sólido o habilitar el modo "arcoíris", encender o apagar las luces, ajustar la intensidad del brillo y la rapidez o frecuencia en la modalidad arcoíris.
 
 ## Por hacer
-[ ] Agregar (o terminar) la modalidad de desvanecimiento
-[ ] Agregar programación de encendido y apagado automático
-[ ] Y lo que se me ocurra más adelante xD ...
+- [ ] Agregar (o terminar) la modalidad de desvanecimiento
+- [ ] Agregar programación de encendido y apagado automático
+- [ ] Y lo que se me ocurra más adelante xD ...
 
 ## Licencia
 Públicado bajo la licencia MIT, el proyecto puede ser descargardo y ser usado, modificado o distribuido libremente para el fin que le necesite.
